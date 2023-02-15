@@ -3,5 +3,5 @@ value = aws_instance.diplom.id
 }
 
 output "aws_instance_public_ip"{
-value = aws_eip
+value = aws_eip.nateIP.public_ip
 }
