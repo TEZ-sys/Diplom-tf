@@ -106,7 +106,7 @@ resource "aws_route_table_association" "PrivateRTassociation" {
 
 }
 
-resource "aws_eip" "nateIP" {
+resource "aws_eip" "nateIP"{
   vpc = true
 }
 
